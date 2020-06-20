@@ -37,4 +37,4 @@ jobs:
       run:  npm install -g surge
     
     - name: Deploying on surge
-      run: surge ./build http://bootcamp2020-claa5-hussain.surge.sh/ --token ${{secrets.SURGE_TOKEN}}
+      run: surge ./build http://expence-tracker-by-hussain.surge.sh/ --token ${{secrets.SURGE_TOKEN}}
