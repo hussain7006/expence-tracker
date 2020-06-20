@@ -2,9 +2,41 @@
   background-color: lightgray;
   width: 40%;
   margin: auto;
+  background-image: url('./husain.png');
+  background-repeat: no-repeat;
+  /* background-attachment: fixed; */
+  background-size: cover;
+}
+@media screen and (max-width: 600px) {
+  body {
+    /* background-color: lightgreen; */
+    width: 80%;
+    background-image: url('./husain.png');
+    background-repeat: no-repeat;
+    /* background-attachment: fixed; */
+    background-size: cover;
+  }
+  h1{
+    color: white;
+  }
+  .current_balance {
+    color: darkgreen !important;
+    font-weight: bold !important;
+  }
+  .current_balance_amount{
+    color: green !important
+  }
 }
 h1{
   text-align: center;
+  color: white;
+}
+.current_balance {
+  color: rgb(9, 44, 158);
+  font-weight: bold;
+}
+.current_balance_amount{
+  color: rgb(9, 44, 158)
 }
 h6 {
   padding: 0px;

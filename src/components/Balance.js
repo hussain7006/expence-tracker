@@ -10,10 +10,10 @@ const Balance = () => {
 
     return (
         <div>
-            <h4>
+            <h2 className="current_balance">
                 Current Balance
-            </h4>
-            <h1> ${total} </h1>
+            </h2>
+            <h1 className="current_balance_amount"> ${total} </h1>
         </div>
     )
 }
