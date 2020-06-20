@@ -1,5 +1,7 @@
  body{
   background-color: lightgray;
+  width: 40%;
+  margin: auto;
 }
 h1{
   text-align: center;
@@ -13,7 +15,7 @@ h6 {
 }
 .container {
   /* border: 1px solid black; */
-  width: 30%;
+  width: 100%;
   margin: auto;
   text-align: center;
   
